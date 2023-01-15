@@ -42,12 +42,12 @@ body {
 
 
 /*----------------------
- common style end here
+ common style end
  ----------------------*/
 
 
 /*----------------------
- header style start here
+ header style start
  ----------------------*/
 
 
@@ -129,12 +129,12 @@ body {
 
 
 /*----------------------
- header style end here
+ header style end
  ----------------------*/
 
 
 /*----------------------
- main style start here
+ main style starts
  ----------------------*/
 
 
@@ -380,32 +380,32 @@ body {
 }
 
 
-/* sponspors section  */
+/* sponsors section  */
 
-.sponspors {
+.sponsors {
     display: grid;
     gap: 50px;
     text-align: center;
     margin-bottom: 80px;
 }
 
-.sponspors__info {
+.sponsors__info {
     display: grid;
     gap: 20px;
 }
 
-.sponspors__info--titel {
+.sponsors__info--titel {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
 }
 
-.sponspors__info--text {
+.sponsors__info--text {
     color: #727272;
     line-height: 26px;
 }
 
-.sponspors__logos {
+.sponsors__logos {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
@@ -414,12 +414,12 @@ body {
 
 
 /*----------------------
-    main styel end here
+    main style end
  ----------------------*/
 
 
 /*-------------------------
-    footer styel start here
+    footer style starts
  ----------------------*/
 
 .footer {
@@ -531,8 +531,8 @@ body {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
     }
-    /* .sponspors sectiion  */
-    .sponspors__logos {
+    /* .sponsors sectiion  */
+    .sponsors__logos {
         grid-template-columns: repeat(1, 1fr);
     }
 }

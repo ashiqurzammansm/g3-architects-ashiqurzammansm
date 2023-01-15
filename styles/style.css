@@ -1,4 +1,4 @@
-/* Work sans google font  */
+/* google fonts  */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
@@ -437,12 +437,12 @@ body {
 
 
 /*------------------------
-    footer styel end here
+    footer style end 
  ----------------------*/
 
 
 /*----------------------
- media quary styel start here
+ media query style starts
  ----------------------*/
 
 @media screen and (max-width: 1200px) {
@@ -455,7 +455,7 @@ body {
     .container {
         max-width: 740px;
     }
-    /* featrue loging  */
+    /* feature loging  */
     .box {
         left: 200px;
         top: 600px;
@@ -511,7 +511,7 @@ body {
         left: 100px;
         bottom: -50px;
     }
-    /* feedbacks sectio  */
+    /* feedbacks section  */
     .feedbacks {
         margin-top: 200px;
         display: grid;
@@ -531,7 +531,7 @@ body {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
     }
-    /* .sponsors sectiion  */
+    /* sponsors section  */
     .sponsors__logos {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -545,5 +545,5 @@ body {
 
 
 /*----------------------
- media quary styel end here
+ media query style end
  ----------------------*/

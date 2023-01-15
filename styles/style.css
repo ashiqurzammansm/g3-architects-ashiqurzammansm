@@ -31,6 +31,16 @@ body {
     color: #FFFFFF;
 }
 
+.btn-hover {
+    transition-duration: 0.4s;
+}
+
+.btn-hover:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
 .responsive-img {
     width: 100%;
     height: auto;

@@ -61,7 +61,7 @@ body {
     /* margin-top: 50px; */
 }
 
-.navber {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,21 +69,21 @@ body {
     /* margin-top: 80px; */
 }
 
-.navber__logo {
+.navbar__logo {
     font-weight: 700;
     font-size: 45px;
 }
 
-.navber__menu ul {
+.navbar__menu ul {
     display: flex;
     gap: 30px
 }
 
-.navber__menu li {
+.navbar__menu li {
     list-style-type: none;
 }
 
-.navber__menu li a {
+.navbar__menu li a {
     text-decoration: none;
     color: #424242;
 }
@@ -138,7 +138,7 @@ body {
  ----------------------*/
 
 
-/* feature  */
+/* features  */
 
 .features {
     display: grid;
@@ -267,7 +267,7 @@ body {
     z-index: 1;
 }
 
-.box .titel {
+.box .title {
     font-size: 40px;
     font-weight: 500
 }
@@ -334,7 +334,7 @@ body {
     gap: 15px;
 }
 
-.facts__para--titel {
+.facts__para--title {
     font-size: 45px;
     font-weight: 700;
 }
@@ -369,7 +369,7 @@ body {
 
 .facts__boxs--box--icon img {}
 
-.facts__boxs--box--titel {
+.facts__boxs--box--title {
     font-weight: 600;
     font-size: 45px;
     color: #424242;
@@ -394,7 +394,7 @@ body {
     gap: 20px;
 }
 
-.sponsors__info--titel {
+.sponsors__info--title {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
@@ -466,16 +466,16 @@ body {
     .container {
         max-width: 500px;
     }
-    /* navber  */
-    .navber {
+    /* navbar  */
+    .navbar {
         flex-direction: column;
         gap: 30px;
     }
-    .navber__logo {
+    .navbar__logo {
         font-weight: 500;
         font-size: 30px;
     }
-    .navber__menu ul {
+    .navbar__menu ul {
         flex-direction: column;
         text-align: center;
     }

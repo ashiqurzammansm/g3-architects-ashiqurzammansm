@@ -1,8 +1,13 @@
 *{
     margin: 0;
+    font-family: 'Work Sans';
 }
 
-/* Header Section */
+/* ---------------
+
+Header Section
+
+------------------ */
 header{
     background: rgba(255, 144, 14, 0.1);
     padding-top: 50px;
@@ -20,11 +25,12 @@ nav h3{
     font-weight: 700;
     font-size: 45px;
 }
-ul{
+nav ul{
     display: flex;
-    gap: 40px;
-    justify-content: space-between;
+    column-gap: 40px;
+    justify-content: space-around;
 }
+
 ul li{
     list-style: none;
 }
@@ -33,7 +39,7 @@ ul li{
     align-items: center;
     margin: auto;
 }
-/* section 1 in header file */
+/* start section 1 in header section */
 
 .section-1{
     width: 100%;
@@ -64,20 +70,42 @@ ul li{
     padding: 20px 25px;
     display: block;
 }
-/* image section */
+/* end section 1 in header section */
+
+
+/* Start image section in header section */
 
 .section-2 img{
     width: 100%;
-    height: 700px;
+    height: 100%;
+    max-height: 700px;
     object-fit: cover;
     margin-bottom: 45px;
 }
+/* end image section in header section */
+
+/*------------------
+
+ end header
+
+ ------------------- */
+
+
+
+
+/*--------------------
+
+start main section 
+
+--------------------- */
 
 main{
     width: 100%;
     max-width: 1110px;
     margin: 30px auto;
 }
+
+/* start section 3 in main section */
 .section-3{
     display: flex;
     align-items: center;
@@ -117,16 +145,20 @@ main{
 .btn-section3{
     margin-top: 32px;
 }
+/* end section 3 in main section */
 
-
-/* section4 start  */
+/* section4 start  in main section*/
 
 .section4{
     display: flex;
+    gap: 30px;
+    margin-top: 100px;
 }
 .section4-container{
     width: 100%;
-    max-width: 586px;
+    max-width: 575px;
+    height: 982px;
+    
 }
 
 .section4-title{
@@ -135,11 +167,12 @@ main{
     border-left: 5px solid  #FF900E;
     margin-bottom: 20px;
 }
-.boxs{
-    width: 586px;
-    /* height: 171px; */
-    padding: 30px;
 
+.boxs{
+    width: 100%;
+    max-width: 450px;
+    height: 110px;
+    padding: 30px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -148,19 +181,70 @@ main{
     padding-bottom: 10px;
 }
 .section4-image{
+    position: relative;
     width: 100%;
     max-width: 800px;
+    height: 1089px;
+    
 }
-/* secction4 end  */
+
+.section4-image img{
+    width: 90%;
+    max-width: 708px;
+    height: 982px;
+    margin-left: 54px; 
+}
+.section4-image button{
+    position: absolute;
+    top: 81%;
+
+}
+.img-btn h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.img-btn p{
+    font-weight: 500;
+    font-size: 25px;
+}
+/*  end section4 in main section  */
+
+/* Start Extra section */
+.extra-section-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.extra-service-name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.extra-service-name h3{
+    width: 169px;
+    height: 136.22px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-top: 60px;
+    text-align: center;
+}
+.extra-service-name h3:hover{
+    background-color:black;
+    color: #FFF4E7;
+    border: 3px solid brown;
+    width: 200px;
+    transition:width 1s ;
+}
+/* end extra section */
 
 
-
-
+/*  Start section5 in main section  */
 
 .section5 h1{
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 24px;
+    color: #131313;
 }
 .section5 p{
     font-size: 16px;
@@ -168,6 +252,10 @@ main{
     margin-bottom: 100px;
 }
 
+/*  end section5 in main section  */
+
+
+/*  Start section6 in main section  */
 
 .section6{
     display: flex;
@@ -201,12 +289,13 @@ main{
     background-color: #727272;
 }
 
+/*  end section66 in main section  */
 
 
-
-
+/*  start section7 in main section  */
 .section7{
-    width: 542px;
+    width: 100%;
+    max-width: 542px;
     height: 129px;
     margin: 0 auto;
     text-align: center;
@@ -224,9 +313,11 @@ main{
     
 }
 
+/*  end section7 in main section  */
 
 
 
+/*  Start section8 in main section  */
 .section8{
     display: flex;
     justify-content: space-between;
@@ -237,9 +328,9 @@ main{
     filter: grayscale(100%);
 }
 
+/*  end section8 in main section  */
 
-
-
+/*  Start footer in main section  */
 footer{
     background: #FFF4E7;
     border-radius: 8px; 
@@ -251,4 +342,61 @@ footer p{
     color: #424242;
     text-align: center;
     padding: 39px;
+}
+
+/*  End footer in main section  */
+
+/*-----------------
+
+End main section  
+
+-----------------*/
+
+/* start Responsive */
+
+@media only screen and (max-width:576px) {
+
+    /* header file */
+
+    nav ul{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    /* end header file */
+
+
+    /* section 3 */
+    .section-3{
+        flex-direction: column;
+    }
+
+    .images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* section3 end */
+
+    .section4{
+        flex-direction: column;
+    }
+
+    .section6{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .section8{
+        flex-wrap: wrap;
+    }
+    .section8 img{
+        margin-bottom: 20px;
+    }
+
+    .extra-service-name{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
 }
